@@ -23,7 +23,7 @@ class Lists
             	    ),
                     'on_update' => 'CASCADE',
                     'on_delete' => 'RESTRICT'
-                )
+                ),
             )
 		);
     }
