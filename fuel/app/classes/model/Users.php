@@ -11,8 +11,8 @@ class Model_Users extends Orm\Model
             'validation' => array('required', 'max_length' => array(20))
         ),
      'password' => array(
-            'data_type' => 'varchar',
-            'validation' => array('required', 'max_length' => array(20))   
+                'data_type' => 'varchar',
+                'validation' => array('required', 'max_length' => array(20))   
             )
     );
 

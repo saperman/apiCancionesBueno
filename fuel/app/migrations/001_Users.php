@@ -10,7 +10,7 @@ class Users
     {
         \DBUtil::create_table('Usuarios', 
             array(
-                'id' => array('type' => 'int', 'constraint' => 5,'auto_increment' => true),
+                'id' => array('type' => 'int', 'constraint' => 11,'auto_increment' => true),
                 'userName' => array('type' => 'varchar', 'constraint' => 100),
                 'password' => array('type'=> 'varchar', 'constraint' => 20)
                 // 'password' => array('type'=> 'varchar', 'constraint' => 100),
